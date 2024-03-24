@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Web Order Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Order</h1>
+        <form action="#">
+            <div class="order-item">
+                <div class="item-name">Chicken Cordon Blue</div>
+                <div class="item-price">Rp 28.000</div>
+                <div class="quantity-container">
+                    <button class="quantity-button minus">-</button>
+                    <input type="number" id="chicken-cordon-blue-quantity" value="0" min="0">
+                    <button class="quantity-button plus">+</button>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="item-name">Chicken Salted Egg</div>
+                <div class="item-price">Rp 30.000</div>
+                <div class="quantity-container">
+                    <button class="quantity-button minus">-</button>
+                    <input type="number" id="chicken-salted-egg-quantity" value="0" min="0">
+                    <button class="quantity-button plus">+</button>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="item-name">Fish and Chips</div>
+                <div class="item-price">Rp 20.000</div>
+                <div class="quantity-container">
+                    <button class="quantity-button minus">-</button>
+                    <input type="number" id="green-tea-latte-quantity" value="0" min="0">
+                    <button class="quantity-button plus">+</button>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="item-name">Caramel Machiato</div>
+                <div class="item-price">Rp 22.000</div>
+                <div class="quantity-container">
+                    <button class="quantity-button minus">-</button>
+                    <input type="number" id="caramel-machiato-quantity" value="0" min="0">
+                    <button class="quantity-button plus">+</button>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="item-name">Lemon Mojito</div>
+                <div class="item-price">Rp 18.000</div>
+                <div class="quantity-container">
+                    <button class="quantity-button minus">-</button>
+                    <input type="number" id="lemon-mojito-quantity" value="0" min="0">
+                    <button class="quantity-button plus">+</button>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="item-name">Leci Tea</div>
+                <div class="item-price">Rp 15.000</div>
+                <div class="quantity-container">
+                    <button class="quantity-button minus">-</button>
+                    <input type="number" id="leci-tea-quantity" value="0" min="0">
+                    <button class="quantity-button plus">+</button>
+                </div>
+            </div>
+            <div class="total-container">
+                <div class="total-text">Total:</div>
+                <div class="total-price">Rp 0</div>
+            </div>
+            <button type="button" id="place-order-button">Place Order</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
